@@ -1,22 +1,22 @@
 export default function Gallery() {
   const galleryImages = [
     {
-      src: '/bangle-floral.jpg.jpg',
+      src: '/bangle-floral.jpg copy.jpg',
       title: 'Floral Collection',
       description: 'Delicate floral patterns',
     },
     {
-      src: '/bangle-preview.jpg.jpg',
+      src: '/bangle-preview.jpg copy.jpg',
       title: 'Classic Elegance',
       description: 'Timeless traditional designs',
     },
     {
-      src: '/gallery-bangles.jpg.jpg',
+      src: '/gallery-bangles.jpg copy.jpg',
       title: 'Contemporary Mix',
       description: 'Modern meets traditional',
     },
     {
-      src: '/hero-bangles.jpg.jpg',
+      src: '/hero-bangles.jpg copy.jpg',
       title: 'Vibrant Collection',
       description: 'Colorful statement pieces',
     },

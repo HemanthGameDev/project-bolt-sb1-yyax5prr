@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="relative fade-in-delay">
             <div className="absolute inset-0 bg-gradient-to-r from-rose-300/20 to-amber-300/20 rounded-3xl blur-3xl" />
             <img
-              src="/hero-bangles.jpg.jpg"
+              src="/hero-bangles.jpg copy.jpg"
               alt="Beautiful handcrafted bangles"
               className="relative rounded-3xl shadow-2xl w-full object-cover max-h-[600px]"
             />

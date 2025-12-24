@@ -24,7 +24,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3 fade-in">
             <img
-              src="/logo.png copy.png"
+              src="/logo.png.png"
               alt="BangleBloom Logo"
               className="h-12 w-12 sm:h-14 sm:w-14 object-contain"
             />

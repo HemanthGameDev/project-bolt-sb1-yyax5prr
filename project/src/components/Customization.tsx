@@ -16,7 +16,7 @@ export default function Customization() {
     quantity: 2,
   });
 
-  const [previewImage, setPreviewImage] = useState('/bangle-floral.jpg.jpg');
+  const [previewImage, setPreviewImage] = useState('/bangle-floral.jpg copy.jpg');
 
   const colors = ['Rose Pink', 'Gold', 'Mint Green', 'Sky Blue', 'Lavender', 'Pearl White'];
   const sizes = ['Small (2.2)', 'Medium (2.4)', 'Large (2.6)', 'Extra Large (2.8)'];
@@ -25,15 +25,15 @@ export default function Customization() {
   const handleDesignChange = (design: string) => {
     setOptions({ ...options, design });
     if (design === 'Floral') {
-      setPreviewImage('/bangle-floral.jpg.jpg');
+      setPreviewImage('/bangle-floral.jpg copy.jpg');
     } else if (design === 'Pearl') {
-      setPreviewImage('/bangle-preview.jpg.jpg');
+      setPreviewImage('/bangle-preview.jpg copy.jpg');
     } else if (design === 'Traditional') {
       setPreviewImage('/bangles-traditional.jpg.jpg');
     } else if (design === 'Contemporary') {
       setPreviewImage('/bangles-contemporary.jpg.jpg');
     } else {
-      setPreviewImage('/gallery-bangles.jpg.jpg');
+      setPreviewImage('/gallery-bangles.jpg copy.jpg');
     }
   };
 

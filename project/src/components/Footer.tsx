@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <div className="flex items-center justify-center gap-3">
             <img
-              src="/logo.png copy.png"
+              src="/logo.png.png"
               alt="BangleBloom Logo"
-              className="h-12 w-12 object-contain brightness-0 invert"
+              className="h-12 w-12 sm:h-14 sm:w-14 object-contain"
             />
             <h3 className="text-3xl font-serif">BangleBloom</h3>
           </div>
